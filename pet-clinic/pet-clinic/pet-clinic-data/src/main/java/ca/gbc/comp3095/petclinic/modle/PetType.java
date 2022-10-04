@@ -1,6 +1,6 @@
 package ca.gbc.comp3095.petclinic.modle;
 
-public class PetType {
+public class PetType extends BaseEntity {
     private String name;
 
     public String getName() {
