@@ -6,6 +6,6 @@ import java.util.Set;
 
 public interface VetService {
     Vet findById(Long id);
-    Vet save(Vet vet);
+    Vet save(Vet vet); //so that the vet that returns back has a generated primary key
     Set<Vet> findAll();
 }
