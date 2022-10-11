@@ -3,11 +3,11 @@ package ca.gbc.comp3095.petclinic.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
-public class IndexController {
+@Controller("/vets")
+public class VetController {
 
     @RequestMapping({"", "/", "index.html", "index"})
-    public String index(){
-        return "index";
+    public String listVets(){
+        return "vets/index";
     }
 }
