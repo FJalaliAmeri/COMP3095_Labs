@@ -1,8 +1,6 @@
 package ca.gbc.comp3095.petclinic.services;
 
-import ca.gbc.comp3095.petclinic.modle.Owner;
-
-import java.util.Set;
+import ca.gbc.comp3095.petclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 

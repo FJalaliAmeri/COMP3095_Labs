@@ -1,6 +1,6 @@
 package ca.gbc.comp3095.petclinic.services.map;
 
-import ca.gbc.comp3095.petclinic.modle.Owner;
+import ca.gbc.comp3095.petclinic.model.Owner;
 import ca.gbc.comp3095.petclinic.services.CrudService;
 
 import java.util.Set;
