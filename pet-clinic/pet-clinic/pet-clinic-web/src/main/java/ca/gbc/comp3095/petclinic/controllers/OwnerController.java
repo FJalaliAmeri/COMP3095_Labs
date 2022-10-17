@@ -3,9 +3,9 @@ package ca.gbc.comp3095.petclinic.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller("/owers")
+@Controller
 public class OwnerController {
-    @RequestMapping({"","index", "index.html"})
+    @RequestMapping({"/owners","/owners/","/owners/index", "/owners/index.html"})
     public String listOwners(){
         return "owners/index";
     }
